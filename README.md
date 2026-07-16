@@ -336,7 +336,7 @@ into reliable analytical datasets.
 
 
 
-<h3>Behavioral Feature Engineering</h3>
+<h3> Feature Engineering</h3>
 
 
 <p>
@@ -377,7 +377,7 @@ Customer lifetime behavior indicators
 
 
 <p align="center">
-<img src="assets/data_quality.png" width="800">
+<img src="Plot/7.png" width="800">
 </p>
 
 
@@ -392,23 +392,22 @@ Customer lifetime behavior indicators
 
 
 <p align="center">
-<img src="assets/churn_distribution.png" width="700">
+<img src="Plot/4.png" width="700">
 </p>
 
 
 <p>
-The analysis identified significant behavioral differences between retained and
-churned customers. Customer inactivity, complaints, and purchasing behavior were
-among the strongest signals associated with churn risk.
+The analysis identified significant behavioral differences between gender and
+churned customers. 
 </p>
 
 
 
-<h3>Purchase Recency Analysis</h3>
+<h3>Payment method Analysis</h3>
 
 
 <p align="center">
-<img src="assets/recency_churn.png" width="800">
+<img src="Plot/5.png" width="800">
 </p>
 
 
@@ -494,7 +493,7 @@ was required to improve model performance.
 
 
 <p align="center">
-<img src="assets/model_comparison.png" width="900">
+<img src="Plot/10.png" width="900">
 </p>
 
 
@@ -552,7 +551,7 @@ was required to improve model performance.
 
 
 <p align="center">
-<img src="assets/shap_summary.png" width="800">
+<img src="Plot/14.png" width="800">
 </p>
 
 
@@ -624,7 +623,7 @@ A complete preprocessing pipeline was implemented before ANN training, including
 
 
 <p align="center">
-<img src="assets/ann_imbalance_comparison.png" width="850">
+<img src="Plot/17.png" width="850">
 </p>
 
 
@@ -678,7 +677,7 @@ complexity on churn prediction:
 
 
 <p align="center">
-<img src="assets/ann_architecture.png" width="800">
+<img src="Plot/DP.png" width="800">
 </p>
 
 
@@ -754,7 +753,7 @@ create actionable customer personas.
 
 
 <p align="center">
-<img src="assets/customer_clusters.png" width="800">
+<img src="Plot/23.png" width="800">
 </p>
 
 
@@ -857,7 +856,7 @@ Sentiment Classification
 
 
 <p align="center">
-<img src="assets/bert_results.png" width="800">
+<img src="Plot/log-bow.png" width="800">
 </p>
 
 
