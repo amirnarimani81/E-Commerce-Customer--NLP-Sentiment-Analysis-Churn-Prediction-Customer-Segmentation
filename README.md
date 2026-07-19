@@ -981,3 +981,44 @@ Supported data-driven retention and growth strategies
 <li>Marketing experiment evaluation</li>
 
 </ul>
+
+<h2>Key Findings & Business Impact</h2>
+
+<h3>1. Customer Churn Risk Identification</h3>
+<ul>
+  <li>
+    <strong>Analysis:</strong> Developed predictive machine learning models to identify customers with a high probability of churn.
+  </li>
+  <li>
+    <strong>Finding:</strong> Customer engagement, purchase frequency, customer tenure, and spending behavior were identified as major indicators of churn risk.
+  </li>
+  <li>
+    <strong>Business Impact:</strong> Enables proactive retention campaigns, targeted incentives, and strategies to improve customer lifetime value.
+  </li>
+</ul>
+
+<h3>2. Customer Segmentation & Personalization</h3>
+<ul>
+  <li>
+    <strong>Analysis:</strong> Applied clustering algorithms to group customers based on purchasing behavior, engagement patterns, and value indicators.
+  </li>
+  <li>
+    <strong>Finding:</strong> Identified distinct customer personas including high-value loyal customers, growth opportunities, and at-risk customer segments.
+  </li>
+  <li>
+    <strong>Business Impact:</strong> Supports personalized marketing strategies, customer targeting, and optimized promotional campaigns.
+  </li>
+</ul>
+
+<h3>3. Customer Sentiment & Experience Analytics</h3>
+<ul>
+  <li>
+    <strong>Analysis:</strong> Analyzed thousands of customer reviews using NLP, deep learning, and transformer-based models.
+  </li>
+  <li>
+    <strong>Finding:</strong> Identified key themes in customer feedback and classified sentiment patterns including positive, negative, and neutral experiences.
+  </li>
+  <li>
+    <strong>Business Impact:</strong> Helps organizations improve products, address customer concerns, enhance customer satisfaction, and optimize customer experience strategies.
+  </li>
+</ul>
