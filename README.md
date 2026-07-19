@@ -965,59 +965,93 @@ Supported data-driven retention and growth strategies
 <hr>
 
 
-<h2>Future Improvements</h2>
-
+<h2>Key Contributions</h2>
 
 <ul>
+  <li>
+    Developed customer churn prediction models using 
+    <strong>Logistic Regression, Random Forest, Gradient Boosting, and XGBoost</strong>, 
+    applying <strong>SMOTE and Tomek Links</strong> to handle class imbalance and improve identification of high-risk customers.
+  </li>
 
-<li>Real-time churn scoring API</li>
+  <li>
+    Engineered customer behavior features including 
+    <strong>RFM analysis (Recency, Frequency, Monetary Value)</strong>, engagement metrics, 
+    purchase patterns, and customer lifetime indicators to support predictive analytics.
+  </li>
 
-<li>Customer recommendation system</li>
+  <li>
+    Applied <strong>K-Means and DBSCAN clustering</strong> to create actionable customer segments such as 
+    <strong>Premium, Loyal, At-Risk, and Inactive customers</strong> for targeted marketing strategies.
+  </li>
 
-<li>Automated model retraining pipeline</li>
+  <li>
+    Built an <strong>NLP pipeline</strong> using 
+    <strong>TF-IDF, GRU deep learning, and BERT Transformer models</strong> 
+    to analyze <strong>22,600+ customer reviews</strong> and classify customer sentiment with 
+    <strong>91%+ accuracy</strong>.
+  </li>
 
-<li>AI Platform</li>
+  <li>
+    Developed a <strong>SQL analytics layer using SQLite</strong> to analyze customer behavior, revenue trends, and product performance.
+  </li>
 
-<li>Marketing experiment evaluation</li>
-
+  <li>
+    Applied <strong>SHAP explainability techniques</strong> to interpret model predictions and identify key churn drivers influencing customer decisions.
+  </li>
 </ul>
+
 
 <h2>Key Findings & Business Impact</h2>
 
-<h3>1. Customer Churn Risk Identification</h3>
+<h3>Customer Churn Prediction</h3>
+
 <ul>
   <li>
-    <strong>Analysis:</strong> Developed predictive machine learning models to identify customers with a high probability of churn.
+    <strong>Finding:</strong> Customer engagement, purchase frequency, tenure, and spending behavior were identified as major indicators of churn risk.
   </li>
+
   <li>
-    <strong>Finding:</strong> Customer engagement, purchase frequency, customer tenure, and spending behavior were identified as major indicators of churn risk.
-  </li>
-  <li>
-    <strong>Business Impact:</strong> Enables proactive retention campaigns, targeted incentives, and strategies to improve customer lifetime value.
+    <strong>Business Impact:</strong> Enabled proactive retention strategies by identifying customers requiring targeted engagement and personalized interventions.
   </li>
 </ul>
 
-<h3>2. Customer Segmentation & Personalization</h3>
+
+<h3>Customer Segmentation</h3>
+
 <ul>
   <li>
-    <strong>Analysis:</strong> Applied clustering algorithms to group customers based on purchasing behavior, engagement patterns, and value indicators.
+    <strong>Finding:</strong> Discovered distinct customer personas including high-value loyal customers, growth opportunities, and at-risk segments.
   </li>
+
   <li>
-    <strong>Finding:</strong> Identified distinct customer personas including high-value loyal customers, growth opportunities, and at-risk customer segments.
-  </li>
-  <li>
-    <strong>Business Impact:</strong> Supports personalized marketing strategies, customer targeting, and optimized promotional campaigns.
+    <strong>Business Impact:</strong> Supported personalized marketing campaigns, customer targeting, and improved allocation of retention resources.
   </li>
 </ul>
 
-<h3>3. Customer Sentiment & Experience Analytics</h3>
+
+<h3>Customer Sentiment Intelligence</h3>
+
 <ul>
   <li>
-    <strong>Analysis:</strong> Analyzed thousands of customer reviews using NLP, deep learning, and transformer-based models.
+    <strong>Finding:</strong> Extracted customer experience insights from thousands of reviews using NLP and deep learning models.
   </li>
+
   <li>
-    <strong>Finding:</strong> Identified key themes in customer feedback and classified sentiment patterns including positive, negative, and neutral experiences.
+    <strong>Business Impact:</strong> Enabled organizations to identify customer concerns, improve products, and enhance overall customer experience.
   </li>
+</ul>
+
+
+<h2>Technical Challenge Solved</h2>
+
+<ul>
+  <li>
+    Addressed highly imbalanced churn data where only <strong>16% of customers represented churn cases</strong> 
+    by applying <strong>SMOTE, Tomek Links</strong>, and evaluation metrics focused on 
+    <strong>Recall and F1-score</strong> rather than accuracy alone.
+  </li>
+</ul>
   <li>
     <strong>Business Impact:</strong> Helps organizations improve products, address customer concerns, enhance customer satisfaction, and optimize customer experience strategies.
   </li>
